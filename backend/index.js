@@ -32,6 +32,6 @@ app.use("/api", stadiumRoute);
 app.use("/api", stadiumOwner);
 
 
-app.listen(8000, () => {
+app.listen(3000, () => {
     console.log("server is running http://localhost:8000/");
 });
